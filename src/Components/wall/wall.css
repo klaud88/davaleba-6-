@@ -1,0 +1,181 @@
+.bottomIcons{
+    margin-bottom: 40px;
+}
+.youTubeVideo{
+    margin-top: 50px;
+    width: 720px;
+    height: 350px;
+    border-style: 1px solid;
+    border-radius:  20px;
+}
+.likeIcon{
+    cursor: pointer;
+    background-image: url(../../assets/like.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-position: 50% 50%;
+    width: 60px;
+    height: 20px; 
+}
+.deslikeIcon{
+    cursor: pointer;
+    background-image: url(../../assets/deslike.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: 50% 50%;
+    width: 60px;
+    height: 20px;
+    border-left: 1px solid ;
+}
+.deslikeIconFocus{
+    cursor: pointer;
+    background-image: url(../../assets/deslikeFocus.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-position: 50% 50%;
+    width: 60px;
+    height: 20px;
+    border-left: 1px solid ;
+}
+.likeIconBorder{
+    display: flex;
+    padding: 5px 5px 5px 5px ;
+    background-color:rgb(37, 37, 37);
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center; 
+    width: 70px;
+    height: 40px;
+}
+.likeIconBorder:hover{
+    background-color: rgb(60, 60, 60);
+}
+.deslikeIconBorder{
+    display: flex;
+    padding:  5px 5px 5px 5px  ;
+    background-color:rgb(37, 37, 37);
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    cursor: pointer;  
+    align-items: center; 
+    width: 60px;
+    height: 40px; 
+}
+.deslikeIconBorder:hover{
+   background-color: rgb(60, 60, 60);
+}
+.likesNumbers{
+    position: absolute;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 17px;
+}
+.iconsOrder {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 40px;
+}
+.shareIcon{
+    background-image: url(../../assets/share.svg) ;
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    background-position: 50% 50%;
+    width: 50px;
+    height: 20px;
+}
+.share{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:rgb(37, 37, 37);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;  
+}
+.share:hover{
+    background-color: rgb(60, 60, 60);
+}
+.dots{
+    content: url(../../assets/dots.svg);
+    background-color: rgb(37, 37, 37) ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    padding: 5px;
+}
+.dots:hover{
+   background-color:  rgb(60, 60, 60);
+}
+.videoLogo{
+    content: url(../../assets/videoLogo.png);
+    width: 50px;
+}
+.userName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-content: center;  
+}
+.subscribesCount{
+    color: rgb(167, 167, 167);
+    font-weight: 500;
+    font-size: 13px;
+}
+.videoTitle{
+    margin-top: 10px;
+}
+.orderLogoUsername{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10px;
+}
+.subscribeBtn{
+    color: rgb(60, 60, 60);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(243, 243, 243);
+    border-style: solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+}
+.subscribeBtn:hover{
+    background-color: rgb(220, 220, 220);
+}
+.bottomOrder{
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+}
+.bottomyouTubeVideo{
+    width: 200px;
+    height: 110px;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: -180px;
+}
+.bottomvideoTitle{
+    display: flex;
+    
+   padding-left: 10px;
+}
